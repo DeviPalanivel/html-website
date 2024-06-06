@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Example</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="new.css">
+ 
+</head>
+<body>
+ 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Left side items -->
+   <img src="./img/logo.png" alt="Logo">
+  <!-- Right side items -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Web</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Elements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa fa-search"></i></a> <!-- Replace fa fa-search with your search icon class -->
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="web">
+  <div class="banner">
+     <img src="./img/banner-bg.png" class="banner-img" alt="Banner">
+    <div class="overlay-text">
+      <h1 id="webh1">Web eLements Template</h1>
+      <h4 id="webh4">Free Multipurpose Responsive Landing Page</h4>
+      <div class="spacer"></div>
+      <button class="btn btn-white">Button</button>
+      <div class="container mt-5">
+        <button id="floattingbutton" class="btn custom-btn"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="container mt-5"> -->
+  <div class="noramlcontainer">
+  <h1 class="text-center">ABOUT WEB ELEMENTS</h1>
+  <p style="color: black;">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+<!-- </div> --></div>
+
+<div class="centered-img-container">
+   <img src="./img/about-bg.png" alt="About Image" class="centered-img">
+</div>
+
+<div class="container para mt-5">
+  <p id="abopara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est beatae delectus dolore ad. Nam rem illo facere rerum accusantium ea, voluptatibus velit sed consequatur esse exercitationem nulla cupiditate voluptas iusto!</p>
+  <br><br>
+
+  <button class="Readmore">Read More</button>
+
+</div>
+<div class="container">
+  <h1 class="heading">SERVICES</h1>
+  <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet eleifend felis vel tempus.</p>
+
+</div>
+
+<div class="container mt-6">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card custom-card-1">
+         <img src="./img/icon-1.png" class="card-img-top icon-1 mx-auto" alt="Image 1">
+        <div class="card-body text-center">
+          <h5 class="card-title">WEBSITE ELEMENT</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptates.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card custom-card-2">
+         <img src="./img/icon-2.png" class="card-img-top icon-2 mx-auto" alt="Image 2">
+        <div class="card-body text-center">
+          <h5 class="card-title">APPLICATION ELEMENT</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card custom-card-3">
+         <img src="./img/icon-3.png" class="card-img-top icon-3 mx-auto" alt="Image 3">
+        <div class="card-body text-center">
+          <h5 class="card-title">DESIGN ELEMENT</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, voluptates.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- ddf -->
+<div class="container mt-5">
+  <div class="row">
+    
+    <div class="col-md-5 custom-form"> 
+      <h2 class="form-heading text-center">REQUEST A CALL BACK</h2>
+    
+      <form class="custom-form-container">
+        <div class="form-group">
+          <label for="custom-name" class="sr-only">Name</label>
+          <input type="text" id="custom-name" name="name" class="form-control" placeholder=" Name" required>
+        </div>
+        <div class="form-group">
+          <label for="custom-email" class="sr-only">Email</label>
+          <input type="email" id="custom-email" name="email" class="form-control" placeholder=" Email" required>
+        </div>
+        <div class="form-group">
+          <label for="custom-phone" class="sr-only">Phone</label>
+          <input type="text" id="custom-phone" name="phone" class="form-control" placeholder=" Phone " required>
+        </div>
+        <div class="form-group">
+          <label for="custom-select" class="sr-only">Select</label>
+          <select id="custom-select" name="select" class="form-control" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="custom-message" class="sr-only">Message</label>
+          <textarea id="custom-message" name="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+        </div>
+        <div class="form-group text-center">
+          <button type="submit" class="btn custom-submit-btn">SEND</button>
+        </div>
+      </form>
+    </div>
+    <div id="contact" class="col-md-6">
+       <img src="./img/contact-bg.png" alt="Request a Call Back Image" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- headding and italic -->
+
+
+<div class="container mt-5 text-center">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <h2 class="custom-heading">WHAT IS SAY CLIENTS</h2>
+      <p class="custom-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime corrupti officia similique facilis. Consequuntur sapiente vel odit animi consectetur.</p>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-4">
+    <div class="col-12">
+      <h2 class="custom-heading1 italic-heading">consectetur adipiscing</h2>
+      <p class="custom-paragraph italic-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid explicabo libero deleniti, provident, quos cupiditate repellendus at quaerat nobis ipsum commodi harum ullam rerum illo optio saepe officia tenetur ab quia. Inventore odit obcaecati nihil dolorem facilis sint illum sit voluptatibus labore quae, deleniti, dicta officiis. Repudiandae perspiciatis minima blanditiis?</p>
+  </div>
+  <div class="row justify-content-center mt-4">
+    <div   class="col-12">
+      <img id="icon4" src="./img/icon-4.png" alt="Icon" class="custom-icon">
+    </div>
+  </div>
+
+<!--  -->
+<footer class="footer text-center mt-5">
+  <div class="container">
+    <div class="subscribe">
+      <span class="subscribe-text">Enter your email</span>
+      <button class="subscribe-button" type="button">SUBSCRIBE NOW</button>
+    </div>
+    <div class="divider"></div>
+    <h1>2020</h1>
+    <div class="heading">Free Multipurpose Responsive Landing Page</div>
+    <div class="social-icons">
+      <div class="social-icons">
+        <img id="socialicon"  src="./img/fb-icon.png" alt="ins">
+        <img id="socialicon" src="./img/twitter-icon.png" alt="">
+        <img id="socialicon" src="./img/linkdin-icon.png" alt="">
+        <img id="socialicon" src="./img/instagram-icon.png" alt="">
+        <img id="socialicon" src="./img/youtub-icon.png" alt="">
+       
+      </div>
+    </div>
+  </footer>
+  
+  <p style=" display:flex; justify-content: center; align-items: center;">2020 All Rights Reserved Design by free Html Templates</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS (Optional, if you want to use Bootstrap JS components) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
